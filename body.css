@@ -1,0 +1,52 @@
+body {
+    font-family: 'Maven Pro';
+    color: black;
+    background-color: white;
+}
+
+a, a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+small a, small a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+header {
+    padding: 1rem 0;
+}
+
+header .row, footer .row {
+    display: flex;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header p {
+    padding: 0 2rem;
+    margin: 0;
+}
+th {
+    padding-left: 1rem;
+    font-size: 1.5rem;
+}
+
+td {
+    word-wrap: break-word;
+    white-space: normal;
+}
+.body-text {
+    margin: 2rem;
+    color: black;
+}
+
+.body-text a, .body-text a:hover {
+    text-decoration: underline;
+    color: black;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <title>roast</title>
+    <meta name="viewport", content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Maven+Pro' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="main.css"/>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+
+            <div class="navbar-header">
+                <a class="navbar-brand" href='index.html'>senior haus</a>
+            </div> 
+            <div> 
+                <ul class="nav navbar-nav pull-left">
+                    <li><a href='community.html'>get to know us</a></li>
+                    <li><a href='resources.html'>resources for residents</a></li>
+                    <li class="active"><a href='roast.html'>steer roast</a></li> 
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="jumbotron">
+        <div class="roast">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-sm-6"><h1 class="dark-bg">steer<br>roast</h1></div>
+                    <div class="col-sm-6"><h1 class="dark-bg">05.05.17 - 05.06.17<h1></div>
+                </div>
+                
+                <div class="row text-center">
+                    <div class="col-sm-3">
+                        <h2 class="dark-bg"><a href='http://web.mit.edu/senior-house/www/history/roast/index.html'>about roast</a></h2>
+                    </div>
+                    <div class="col-sm-3">
+                        <h2 class="dark-bg"><a href='roast-art.html'>project funding</a></h2>
+                    </div>
+                    <div class="col-sm-3">
+                        <h2 class="dark-bg"><a href='schedule.html'>event schedule</a></h2>
+                    </div>
+                    <div class="col-sm-3">
+                        <h2 class="dark-bg"><a href='register-guests.html'>register guests</a></h2>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <div class="row text-center">
+                    <div class="col-sm-4"></div>
+                    <div class="col-sm-4">
+                        <p id="clock" class="dark-bg"></p>
+                    </div>
+                    <div class="col-sm-4"></div>
+                </div>
+
+<script>
+    var roastDate = new Date("May 5, 2017 17:00:00").getTime();
+    var x = setInterval(function() {
+        var now = new Date().getTime();
+        var timeLeft = roastDate - now;
+        var days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
+        document.getElementById("clock").innerHTML = days + "d " + hours + "h "
+                + minutes + "m " + seconds + "s ";
+
+        if (timeLeft < 0) {
+            clearInterval(x);
+            document.getElementById("clock").innerHTML = "see you next year!";
+        }
+    }, 1000);
+</script>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>

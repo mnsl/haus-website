@@ -1,0 +1,141 @@
+body {
+    font-family: 'Maven Pro';
+    color: rgb(102,5,30);
+    background: black;
+}
+
+a, a:hover {
+    color: rgb(102,5,30);
+    text-decoration: none;
+}
+
+small a, small a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+header {
+    margin: 0rem;
+}
+
+header .row {
+    display: flex;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header p {
+    padding: 0 2rem;
+    margin: 0;
+}
+
+.jumbotron {
+    background-color: black;
+    margin: 0rem;
+    padding: 1rem;
+}
+
+.jumbotron .sportdeath {
+    background-image: url('sportdeath.jpg');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.jumbotron .xueli {
+    display: flex;
+    background-image: url('xueli.jpg');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    height: 100rem;
+}
+
+.jumbotron .cow {
+    display: flex;
+    background-image: url('turnaround-cow.jpg');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    height: 100rem;
+}
+
+.jumbotron .yearbook {
+    display: flex;
+    justify-content: flex-end;
+    background-image: url('yearbook.jpg');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    height: 100rem;
+}
+
+.jumbotron .roast {
+    display: block-inline;
+    background-image: url('roast.jpg');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    height: 100rem;
+    margin: 1rem;
+    padding: 1rem 1rem 1rem 0;
+}
+
+th {
+    padding-left: 1rem;
+    font-size: 1.5rem;
+}
+
+td {
+    word-wrap: break-word;
+    white-space: normal;
+}
+
+.dark-bg {
+    background: rgba(255,255,255,.7);
+    padding: 0.25rem 1rem 1rem 1rem;
+    margin: 1rem;
+    font-weight: bold;
+}
+
+.light-bg {
+    background: rgba(255,255,255,.9);
+    padding: 0.25rem 1rem 1rem 1rem;
+    margin: 1rem;
+    font-weight: bold;
+}
+
+.body-text {
+    color: black;
+    font-size: 1.5rem;
+}
+
+.body-text a, .body-text a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+#welcome {
+    background: rgba(255,255,255,.2);
+    font-weight: bold;
+    padding: 1rem;
+    font-weight: 400;
+    text-shadow: 0 0 20px rgba(0,0,0,0.4);
+    margin: 1rem;
+    color: black;
+    text-align: center;
+}
+
+#clock {
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(102,5,30);
+}
+
+.jumbotron p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+}
+
+row {
+    padding: 1rem;
+}
