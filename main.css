@@ -128,6 +128,7 @@ td {
     font-size: 2rem;
     font-weight: bold;
     color: rgb(102,5,30);
+    padding: 0 1rem;
 }
 
 .jumbotron p {
