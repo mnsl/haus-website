@@ -90,7 +90,7 @@ td {
 }
 
 .dark-bg {
-    background: rgba(255,255,255,.7);
+    background: rgba(255,255,255,.8);
     padding: 0.25rem 1rem 1rem 1rem;
     margin: 1rem;
     font-weight: bold;
@@ -137,6 +137,14 @@ td {
     color: black;
 }
 
-row {
-    padding: 1rem;
+.link-box {
+    background: rgba(255,255,255,.8);
+    padding: 1rem 1rem 1rem 1rem;
+    margin: 1rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.btn {
+    margin: 1rem;
 }
