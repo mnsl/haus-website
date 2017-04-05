@@ -159,3 +159,7 @@ td {
 .link-box h2 {
     padding: 0rem;
 }
+
+small {
+    color: black;
+}
