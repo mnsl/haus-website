@@ -1,6 +1,6 @@
 body {
     font-family: 'Maven Pro';
-    color: rgb(102,5,30);
+    color: black;
     background: black;
 }
 
@@ -174,4 +174,9 @@ td {
 
 small {
     color: black;
+}
+
+h2, h3, h4 {
+    color: rgb(102,5,30);
+    font-weight: bold;
 }
