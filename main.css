@@ -42,6 +42,7 @@ header p {
     background-image: url('sportdeath.jpg');
     background-size: 100% auto;
     background-repeat: no-repeat;
+    padding: 1rem 1rem 1rem 0;
 }
 
 .jumbotron .xueli {
@@ -49,12 +50,14 @@ header p {
     background-image: url('xueli.jpg');
     background-size: 100% auto;
     height: 75rem;
+    padding: 1rem 1rem 1rem 0;
 }
 
 .jumbotron .cow {
     display: flex;
     background-image: url('turnaround-cow.jpg');
     background-size: 100% auto;
+    padding: 1rem 1rem 1rem 0;
 }
 
 .jumbotron .yearbook {
@@ -62,6 +65,7 @@ header p {
     justify-content: flex-end;
     background-image: url('yearbook.jpg');
     background-size: 100% auto;
+    padding: 1rem 1rem 1rem 0;
 }
 
 .jumbotron .roast {
