@@ -117,7 +117,7 @@ td {
 }
 
 .light-bg {
-    background: rgba(255,255,255,.9);
+    background: rgba(255,255,255,.6);
     padding: 0.25rem 1rem 1rem 1rem;
     margin: 1rem;
     font-weight: bold;
