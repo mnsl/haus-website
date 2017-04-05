@@ -54,14 +54,14 @@ header p {
     display: flex;
     background-image: url('xueli.jpg');
     background-size: 100% auto;
-    padding: 1rem 1rem 1rem 0;
+    padding: 1rem 0rem 1rem 0;
 }
 
 .jumbotron .cow {
     display: flex;
     background-image: url('turnaround-cow.jpg');
     background-size: 100% auto;
-    padding: 1rem 1rem 1rem 0;
+    padding: 1rem 0rem 1rem 0;
 }
 
 .jumbotron .yearbook {
@@ -69,15 +69,15 @@ header p {
     justify-content: flex-end;
     background-image: url('yearbook.jpg');
     background-size: 100% auto;
-    padding: 1rem 1rem 1rem 0;
+    padding: 1rem 0rem 1rem 0;
 }
 
 .jumbotron .roast {
-    display: block-inline;
+    display: flex;
     background-image: url('roast.jpg');
-    background-size: cover;
+    background-size: 100% auto;
     margin: 1rem;
-    padding: 1rem 1rem 1rem 0;
+    padding: 1rem 0rem 1rem 0;
 }
 
 th {
@@ -100,15 +100,6 @@ td {
 .maroon {
     color: rgb(56, 121, 226);
     font-weight: bold;
-}
-
-.maroon-bg {
-    background: rgba(255,255,255,.8);
-    border: solid rgb(56,121,226);
-    padding: 0rem 0rem 1rem 0rem;
-    margin: 1rem;
-    font-weight: bold;
-    color: rgb(56,121,226);
 }
 
 .blue {
