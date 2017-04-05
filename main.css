@@ -85,6 +85,10 @@ th {
     font-size: 1.5rem;
 }
 
+.xueli th {
+    font-size: small;
+}
+
 td {
     word-wrap: break-word;
     white-space: normal;
