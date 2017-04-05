@@ -14,7 +14,7 @@
         var now = new Date().getTime();
         var timeLeft = roastDate - now;
         var days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
-        var hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var hours = jath.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
         var minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
         var seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
         document.getElementById("clock").innerHTML = days + "d " + hours + "h "
@@ -122,9 +122,20 @@
                                 </div>
                             </div>
                             </div>
-
                         </div>
                     </div>
+                </div>
+            </div>
+
+            <div class="row text-center">
+                <div class="col-xs-12">
+                <iframe
+                        height="500px"
+                        width="100% auto"
+                          frameborder="0" style="border:0"
+                            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDp3rLpCVk00ybnsJLM_tphdMhZYq6ndng
+                                &q=Senior+House+MIT,Cambridge+MA" allowfullscreen>
+                </iframe>
                 </div>
             </div>
         </div>
