@@ -9,6 +9,11 @@ a, a:hover {
     text-decoration: none;
 }
 
+a, a:hover {
+    color: rgb(45,92,168);
+    text-decoration: none;
+}
+
 small a, small a:hover {
     color: black;
     text-decoration: underline;
@@ -49,4 +54,8 @@ td {
 .body-text a, .body-text a:hover {
     text-decoration: underline;
     color: black;
+}
+
+.glyphicon-link {
+    color: rgb(45,92,168);
 }
