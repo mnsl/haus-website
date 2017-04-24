@@ -11,7 +11,7 @@
 
 </script>
 <head>
-    <title>community</title>
+    <title>steer roast</title>
     <meta name="viewport", content="width=device-width, initial-scale=1">
     <link href='https://fonts.googleapis.com/css?family=Maven+Pro' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
@@ -23,7 +23,7 @@
 
 <body>
     <nav class="navbar navbar-inverse">
-        <div class="container-fluid">
+        <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                     <span class="icon-bar"></span>
@@ -46,10 +46,24 @@
         <div class="roast">
             <div class="container">
                 <div class="row text-center">
-                    <div class="col-sm-6 col-md-5"><h1 class="dark-bg">steer roast</h1></div>
-                    <div class="col-sm-6 col-md-7"><h1 class="dark-bg">5/5/17-5/6/17<h1></div>
+                    <div class="col-xs-12">
+                        <h2 class="dark-bg" style="padding: 1rem">Statement Regarding Steer Roast</h2>
+
+                        <div class="dark-bg text-left" style="padding: 2rem">
+                            <p>"Due to an ongoing review of credible information regarding dangerous behavior that occurred in Senior House during the turnaround, the administration has placed the Senior House community on probation and cancelled Steer Roast. The Division of Student Life (DSL) and Steer Roast veeps are currently working together on the cancellation, and DSL will cover out of pocket costs the House has incurred planning the event.</p>
+
+                            <p>The administration and Senior House residents understand that this news will disappoint individuals who registered to attend next month. However, given the seriousness of this situation and our collective responsibility to ensure the community's safety and wellbeing, we ask that you respect the decision and give us the time we need to handle this matter privately and responsibly."</p>
+                            <p>- Office of the Chancellor, Steer Roast veeps, and Senior House presidents</p>
+
+                            <p>Comments can be sent to <a href="mailto:steer-roast@mit.edu">steer-roast@mit.edu</a>.</p>
+
+                        </div>
+
+                    </div>
                 </div>
+
                 
+                <!--
                 <div class="row text-center">
                     <div class="col-md-5">
                         <h2 class="dark-bg"><a href='http://web.mit.edu/senior-house/old-www/history/roast/index.html'>history of roast</a></h2>
@@ -110,25 +124,8 @@
                     </div>
                     <div class="col-sm-4"></div>
                 </div>
+                -->
 
-<script>
-    var roastDate = new Date("May 5, 2017 17:00:00").getTime();
-    var x = setInterval(function() {
-        var now = new Date().getTime();
-        var timeLeft = roastDate - now;
-        var days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
-        var hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        var minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
-        var seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
-        document.getElementById("clock").innerHTML = days + "d " + hours + "h "
-                + minutes + "m " + seconds + "s ";
-
-        if (timeLeft < 0) {
-            clearInterval(x);
-            document.getElementById("clock").innerHTML = "see you next year!";
-        }
-    }, 1000);
-</script>
             </div>
         </div>
     </section>
